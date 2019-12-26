@@ -1,5 +1,5 @@
 {
-    "name": "ircmaxell/php-types",
+    "name": "silverfoxy/php-types",
     "description": "A PHP CFG Type Inference / Reconstruction Engine",
     "license": "MIT",
     "authors": [
@@ -10,7 +10,7 @@
     ],
     "require": {
         "php": ">=5.5",
-        "ircmaxell/php-cfg": "^0.5"
+        "silverfoxy/php-cfg": "@dev"
     },
     "require-dev": {
         "phpunit/phpunit": "^4.7",
