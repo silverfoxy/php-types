@@ -413,6 +413,9 @@ class Type {
         } elseif (is_string($value)) {
             return new Type(Type::TYPE_STRING);
         }
+        elseif (is_array($value)) {
+            return new Type(Type::TYPE_ARRAY);
+        }
         throw new \RuntimeException("Unknown value type found: " . gettype($value));
     }
 
