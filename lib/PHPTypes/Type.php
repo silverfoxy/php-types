@@ -96,6 +96,12 @@ class Type {
     public static function object() {
         return self::makeCachedType(Type::TYPE_OBJECT);
     }
+    /**
+     * @return Type
+     */
+    public static function array() {
+        return self::makeCachedType(Type::TYPE_ARRAY);
+    }
 
     /**
      * @param int $key
