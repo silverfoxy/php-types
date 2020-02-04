@@ -102,6 +102,12 @@ class Type {
     public static function array() {
         return self::makeCachedType(Type::TYPE_ARRAY);
     }
+    /**
+     * @return Type
+     */
+    public static function double() {
+        return self::makeCachedType(Type::TYPE_DOUBLE);
+    }
 
     /**
      * @param int $key
